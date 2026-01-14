@@ -1,5 +1,5 @@
 import { GameMap } from './game_map/base.js';
-import { Kyo } from 'static/js/Player/Kyo.js';
+import { Kyo } from './player/kyo.js';
 class KOF {
     constructor(id) {
         this.$kof = $('#' + id);

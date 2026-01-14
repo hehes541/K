@@ -1,4 +1,4 @@
-import { AcGameObject } from "./ac_game_object/base.js";
+import { AcGameObject } from "../ac_game_object/base.js";
 
 export class Player extends AcGameObject {
     constructor(root, info) {
